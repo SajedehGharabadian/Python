@@ -1,9 +1,9 @@
 import random
 
-n=int(input("enter size array :"))
+n=int(input("enter array size :"))
 array=[]
 
-for i in range (n) :
+while len(array) < n :
     x= random.randint(1,20)
 
     if x not in  array:
