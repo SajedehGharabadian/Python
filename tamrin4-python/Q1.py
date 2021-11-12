@@ -1,7 +1,4 @@
 
-from typing import Sized
-
-
 def page(m , n) :
     i=1
     j=1
