@@ -26,10 +26,9 @@ def load():
             actors = info[6].split('-')
             casts= []
             for j in range(len(actors)):
-                actor = []
-                actor = actors[j].split(' ') 
-                cast =Actor(actor[0],actor[1])
-                casts.append(cast)
+                cast = actors[j].split(' ') 
+                actor =Actor(cast[0],cast[1])
+                casts.append(actor)
             film = Film(info[0],info[1],info[2],info[3],info[4],info[5],casts)
             Video.append(film)
         elif info[0] == "serial":
@@ -38,8 +37,8 @@ def load():
             for j in range(len(actors)):
                 cast = actors[j].split(' ') 
                 actor = Actor(cast[0],cast[1])
-                casts.append(actors)
-            series = Series(info[0],info[1],info[2],info[3],info[4],info[5],info[6],info[7],info[8])
+                casts.append(actor)
+            series = Series(info[0],info[1],info[2],info[3],info[4],info[5],info[6],casts,info[8])
             Video.append(series)
         elif info[0] == "documentary":
             actors = info[7].split('-')
@@ -47,8 +46,8 @@ def load():
             for j in range(len(actors)):
                 cast = actors[j].split(' ') 
                 actor = Actor(cast[0],cast[1])
-                casts.append(actors)
-            documentary = Documentary(info[0],info[1],info[2],info[3],info[4],info[5],info[6],casts,info[8])
+                casts.append(actor)
+            documentary = Documentary(info[0],info[1],info[2],info[3],info[4],info[5],casts,casts,info[8])
             Video.append(documentary)
         elif info[0] == "clip":
             actors = info[6].split('-')
@@ -56,7 +55,7 @@ def load():
             for j in range(len(actors)):
                 cast = actors[j].split(' ') 
                 actor = Actor(cast[0],cast[1])
-                casts.append(actors)
+                casts.append(actor)
             clip = Clip(info[0],info[1],info[2],info[3],info[4],info[5],casts)
             Video.append(clip)
     f.close()
