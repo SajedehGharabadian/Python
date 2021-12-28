@@ -1,5 +1,0 @@
-film,panjohkiloalbalo,mani haghighi,3.8,https://www.filimo.com/m/j2Wnw/50,88,saed shohieli-hasti mahdavi
-serial,friends,James Burrows,8.8,https://www.youtube.com/watch?v=w0LO0Ff7WRo,23,24,David Schwimmer-Courteney Cox,9
-documentary,mohamadali,can brenz,8.7,https://www.filimo.com/m/97732,86,4,mohamadali kley-hana ali,,1
-clip,ghabl residaneton,hamed vaghari,6.8,https://www.filimo.com/m/nZECs,16,sina mehrad-mona mosavi
-serial,paytakht,siroos moghadam,6.8,https://www.youtube.com/watch?v=p5oTRUJHA8o,48,15,mohsen tanabande-rima raminfar,6
