@@ -17,23 +17,21 @@ for i in range(10):
         count2 = 0
         for j in range(10):
             if j % 2 == 0:
-                arcade.draw_circle_filled(center_x-count1,center_y+count2,10,arcade.color.BLUE)
+                arcade.draw_rectangle_filled(center_x-count1,center_y+count2,10,10,arcade.color.BLUE,45)
                 count2 += 25
             elif j % 2 == 1 :
-                arcade.draw_circle_filled(center_x-count1,center_y+count2,10,arcade.color.RED)
+                arcade.draw_rectangle_filled(center_x-count1,center_y+count2,10,10,arcade.color.RED,45)
                 count2 += 25
     elif i % 2 == 1:
         count2 = 0
         for j in range(10):
             if j % 2 == 0:
-                arcade.draw_circle_filled(center_x-count1,center_y+count2,10,arcade.color.RED)
+                arcade.draw_rectangle_filled(center_x-count1,center_y+count2,10,10,arcade.color.RED,45)
                 count2 += 25
             elif j % 2 == 1 :
-                arcade.draw_circle_filled(center_x-count1,center_y+count2,10,arcade.color.BLUE)
+                arcade.draw_rectangle_filled(center_x-count1,center_y+count2,10,10,arcade.color.BLUE,45)
                 count2 += 25
     count1 += 25
-
-
 
 
 
