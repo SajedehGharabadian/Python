@@ -19,4 +19,5 @@
 ✅ برای شلیک کردن و برای منفجر شدن هواپیما، صدای مناسب پخش شود
 
 
-![silver spacecraft](https://user-images.githubusercontent.com/76538787/151369823-af43b2f4-b0a8-4e77-b591-1ab791505d7a.png)
+
+![silver spacecraft](https://user-images.githubusercontent.com/76538787/151369965-90b5840b-c47f-45d4-8ec7-e604c68c222a.png)
