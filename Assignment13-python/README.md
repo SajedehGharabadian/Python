@@ -1,15 +1,5 @@
-# OS11-homework
-echo "Enter Operator:" --> for print
+Assignment 13
 
-read O --> this command takes some value from the user's keyboard
+![game](https://user-images.githubusercontent.com/76538787/153145722-e5d21318-7694-4a46-bb2a-5adbfe5f30e6.JPG)
 
-if [ $O == "Minus" ] then  res= echo $a - $b | bc --> if the if statement is true, it calculates the subtraction a, b (int,float)
-
-elif [ $O == "Add" ] then   res= echo $a + $b | bc --> if the if statement is true, it calculates the addition a, b (int,float)
-
-elif [ $O == "Mul" ] then   res= echo $a \* $b | bc --> if the if statement is true, it calculates the multiply a, b
-(int,float)
-
-elif [ $O == "Div" ] then  res= echo "scale=2; $a / $b" | bc --> if the if statement is true, it calculates the division a, b (int,float)
-
-else echo Error   --> if the user enters a command other than these, the Error command will be printed
+![game_over](https://user-images.githubusercontent.com/76538787/153145741-7198296a-c07f-47d2-9cbe-9e7b1a7e56bb.JPG)
