@@ -1,15 +1,22 @@
-# OS11-homework
-echo "Enter Operator:" --> for print
+#  Assignment 14
 
-read O --> this command takes some value from the user's keyboard
+✅ پریدن از روی کاکتوس ها
 
-if [ $O == "Minus" ] then  res= echo $a - $b | bc --> if the if statement is true, it calculates the subtraction a, b (int,float)
+✅ خم شدن در مواجه با پرندگان
 
-elif [ $O == "Add" ] then   res= echo $a + $b | bc --> if the if statement is true, it calculates the addition a, b (int,float)
+✅ پرندگان از امتیاز ۱۰۰۰ به بعد می آیند.
 
-elif [ $O == "Mul" ] then   res= echo $a \* $b | bc --> if the if statement is true, it calculates the multiply a, b
-(int,float)
+✅ افزودن صداهای بازی
 
-elif [ $O == "Div" ] then  res= echo "scale=2; $a / $b" | bc --> if the if statement is true, it calculates the division a, b (int,float)
+✅ بازی به صورت تکراری، گاهی روز و گاهی شب می شود.
 
-else echo Error   --> if the user enters a command other than these, the Error command will be printed
+✅ امتیاز فعلی در کنار بیشترین امتیاز نمایش داده شود
+
+✅ افزایش سرعت بازی به مرور
+
+
+![game2](https://user-images.githubusercontent.com/76538787/153722072-5ff94905-11ad-4674-b399-64bc01417f33.png)
+
+![game1](https://user-images.githubusercontent.com/76538787/153722081-5cc82028-f17f-494c-bcd5-d4b830974f73.png)
+
+![game_over_dino](https://user-images.githubusercontent.com/76538787/153722084-22568449-1331-4e74-ab9e-98720a22dd13.JPG)
