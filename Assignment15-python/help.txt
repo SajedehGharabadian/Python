@@ -1,0 +1,8 @@
+/start- welcome to user
+/game-game number guess
+/age- calcute age
+/voice- get english sentences and convert to voice
+/max- find biggest number of list
+/argmax- find index of biggest number
+/qrcode- get string and convert to qrcode
+/help- show commands
