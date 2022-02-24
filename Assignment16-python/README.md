@@ -1,4 +1,12 @@
- Assignment11
+ Assignment16
  
-![draw diamond](https://user-images.githubusercontent.com/76538787/149660244-528e8bac-7807-46a9-87b6-70e063ffc8cf.JPG)
-![snake_game](https://user-images.githubusercontent.com/76538787/149660256-a21ae9a1-290d-4c5c-9bc8-c5fea0335287.png)
+The following operations are performed in the calculator:
+
+✅ Sum, Minus, Multiplication, Division, Percent, Symmetry
+
+✅ Sin, Cos, Tan, Cot, Log, Sqrt
+
+
+![image](https://user-images.githubusercontent.com/76538787/155537129-9a2f94f4-0723-42d5-a9fc-76426be1ea45.png)
+
+
