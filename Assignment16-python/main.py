@@ -1,6 +1,4 @@
-from cgitb import text
 import math
-from select import select
 
 from PySide6.QtWidgets import *
 from PySide6.QtUiTools import *
@@ -59,7 +57,7 @@ class Hello_World(QMainWindow):
 
 
     def start(self):
-        self.ui.textbox.setText('')
+        self.ui.textbox.setText('0')
 
     def function_num_0(self):
         self.ui.textbox.setText(self.ui.textbox.text()+'0')
