@@ -2,9 +2,13 @@
  
  
 ✅ Check all win and draw modes
+
 ✅ New Game Button
+
 ✅ Player vs cpu and player vs player modes by using radio button
+
 ✅ About Button
+
 ✅ Score board design to show the number of wins, losses
 
 
