@@ -1,3 +1,4 @@
+from functools import partial
 import math
 
 from PySide6.QtWidgets import *
@@ -31,22 +32,16 @@ class Hello_World(QMainWindow):
         self.ui.btn_po.clicked.connect(self.num_po)
 
 
-
-
-
-        self.ui.btn_0.clicked.connect(self.function_num_0)
-        self.ui.btn_1.clicked.connect(self.function_num_1)
-        self.ui.btn_2.clicked.connect(self.function_num_2)
-        self.ui.btn_3.clicked.connect(self.function_num_3)
-        self.ui.btn_4.clicked.connect(self.function_num_4)
-        self.ui.btn_5.clicked.connect(self.function_num_5)
-        self.ui.btn_6.clicked.connect(self.function_num_6)
-        self.ui.btn_7.clicked.connect(self.function_num_7)
-        self.ui.btn_8.clicked.connect(self.function_num_8)
-        self.ui.btn_9.clicked.connect(self.function_num_9)
-        
-
-        self.line_sin = QLineEdit('sin(')
+        self.ui.btn_0.clicked.connect(partial(self.function_num,0))
+        self.ui.btn_1.clicked.connect(partial(self.function_num,1))
+        self.ui.btn_2.clicked.connect(partial(self.function_num,2))
+        self.ui.btn_3.clicked.connect(partial(self.function_num,3))
+        self.ui.btn_4.clicked.connect(partial(self.function_num,4))
+        self.ui.btn_5.clicked.connect(partial(self.function_num,5))
+        self.ui.btn_6.clicked.connect(partial(self.function_num,6))
+        self.ui.btn_7.clicked.connect(partial(self.function_num,7))
+        self.ui.btn_8.clicked.connect(partial(self.function_num,8))
+        self.ui.btn_9.clicked.connect(partial(self.function_num,9))
         
         self.flag_sum = 0
         self.flag_sub = 0
@@ -57,49 +52,12 @@ class Hello_World(QMainWindow):
 
 
     def start(self):
-        self.ui.textbox.setText('0')
+        self.ui.textbox.setText('')
 
-    def function_num_0(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'0')
+    def function_num(self,x):
+        self.ui.textbox.setText(self.ui.textbox.text()+str(x))
         self.num2 = float(self.ui.textbox.text())
         
-    def function_num_1(self):
-        # old_text = self.ui.textbox.text()
-        # new_text = old_text + '1'
-        self.ui.textbox.setText(self.ui.textbox.text()+'1')
-        self.num2 = float(self.ui.textbox.text())
-        
-    def function_num_2(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'2')
-        self.num2 = float(self.ui.textbox.text())
-
-    def function_num_3(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'3')
-        self.num2 = float(self.ui.textbox.text())
-
-    def function_num_4(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'4')
-        self.num2 = float(self.ui.textbox.text())
-
-    def function_num_5(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'5')
-        self.num2 = float(self.ui.textbox.text())
-        
-    def function_num_6(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'6')
-        self.num2 = float(self.ui.textbox.text())
-    
-    def function_num_7(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'7')
-        self.num2 = float(self.ui.textbox.text())
-
-    def function_num_8(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'8')
-        self.num2 = float(self.ui.textbox.text())
-    
-    def function_num_9(self):
-        self.ui.textbox.setText(self.ui.textbox.text()+'9')
-        self.num2 = float(self.ui.textbox.text())
 
     def sum(self):
         self.num1 = float(self.ui.textbox.text())
@@ -198,11 +156,6 @@ class Hello_World(QMainWindow):
 
 
         self.ui.textbox.setText(str(self.result))
-
-
-    
-
-
 
 
 app = QApplication([])
